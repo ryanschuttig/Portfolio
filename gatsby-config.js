@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: 'Gatsby Starter - Dimension V2',
+    title: 'Portfolio',
     author: 'Ryan Schuttig',
     description: 'Portfolio',
   },
