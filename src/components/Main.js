@@ -85,7 +85,7 @@ class Main extends React.Component {
                 <input type="submit" value="Send Message" className="special" />
               </li>
               <li>
-                <input type="reset" value="Reset" />
+                <input type="reset" value="Clear" />
               </li>
             </ul>
           </form>
