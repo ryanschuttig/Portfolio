@@ -19,16 +19,16 @@ class Main extends React.Component {
         style={this.props.timeout ? { display: 'flex' } : { display: 'none' }}
       >
         <article
-          id="intro"
-          className={`${this.props.article === 'intro' ? 'active' : ''} ${
+          id="about"
+          className={`${this.props.article === 'about' ? 'active' : ''} ${
             this.props.articleTimeout ? 'timeout' : ''
           }`}
           style={{ display: 'none' }}
         >
-          <h2 className="major">Intro</h2>
+          <h2 className="major">About</h2>
           <span className="image main"></span>
-          <p></p>
-          <p></p>
+          <p>Utilizing skills in JavaScript, CSS, MongoDB, Express, React.js, and Node.js, I prioritize fast loading times, lag free interaction, responsive layouts, intuitive UX/UI, and dynamic pages.</p>
+          <p>Let's create something special!</p>
           {close}
         </article>
 
@@ -39,23 +39,9 @@ class Main extends React.Component {
           }`}
           style={{ display: 'none' }}
         >
-          <h2 className="major">Work</h2>
+          <h2 className="major">Portfolio</h2>
           <span className="image main"></span>
-          <p></p>
-          <p></p>
-          {close}
-        </article>
-
-        <article
-          id="about"
-          className={`${this.props.article === 'about' ? 'active' : ''} ${
-            this.props.articleTimeout ? 'timeout' : ''
-          }`}
-          style={{ display: 'none' }}
-        >
-          <h2 className="major">About</h2>
-          <span className="image main"></span>
-          <p></p>
+          <p>Coming soon...</p>
           {close}
         </article>
 
