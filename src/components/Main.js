@@ -41,7 +41,10 @@ class Main extends React.Component {
         >
           <h2 className="major">Portfolio</h2>
           <span className="image main"></span>
-          <p>Coming soon...</p>
+          <p><a href="https://react-arcadian.herokuapp.com/" target="_blank">Arcadian</a></p>
+          <p><a href="https://camerong88.github.io/Bandify/" target="_blank">Bandify</a></p>
+          <p><a href="https://note-taker-rs.herokuapp.com/notes" target="_blank">Note Taker</a></p>
+          <p><a href="https://rs-workout-tracker.herokuapp.com/" target="_blank">Fitness Tracker</a></p>
           {close}
         </article>
 
