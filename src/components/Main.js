@@ -56,7 +56,11 @@ class Main extends React.Component {
           style={{ display: 'none' }}
         >
           <h2 className="major">Contact</h2>
-          <form method="post" action="mailto:ryanschuttig@gmail.com">
+          <a href="tel:5186946664">(518) 694-6664</a>
+          <br></br><br></br>
+          <a href="mailto:ryanschuttig@gmail.com">ryanschuttig@gmail.com</a>
+          <br></br><br></br>
+          {/* <form method="post" action="mailto:ryanschuttig@gmail.com">
             <div className="field half first">
               <label htmlFor="name">Name</label>
               <input type="text" name="name" id="name" />
@@ -77,10 +81,10 @@ class Main extends React.Component {
                 <input type="reset" value="Clear" />
               </li>
             </ul>
-          </form>
+          </form> */}
           <ul className="icons">
             <li>
-              <a href="https://www.linkedin.com/in/ryan-schuttig-10a63791/" className="icon fa-linkedin" target="_blank">
+              <a href="https://www.linkedin.com/in/ryanschuttig/" className="icon fa-linkedin" target="_blank">
                 <span className="label">LinkedIn</span>
               </a>
             </li>
