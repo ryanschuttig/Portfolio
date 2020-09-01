@@ -41,10 +41,10 @@ class Main extends React.Component {
         >
           <h2 className="major">Portfolio</h2>
           <span className="image main"></span>
-          <p><a href="https://react-arcadian.herokuapp.com/" target="_blank">Arcadian</a> - our online arcade!</p>
-          <p><a href="https://camerong88.github.io/Bandify/" target="_blank">Bandify</a> - find your favorite artists, music and tour dates!</p>
-          <p><a href="https://note-taker-rs.herokuapp.com/notes" target="_blank">Note Taker</a> - a simple note taking app!</p>
-          <p><a href="https://rs-workout-tracker.herokuapp.com/" target="_blank">Fitness Tracker</a> - keep track of your fitness goals!</p>
+          <p><a href="https://react-arcadian.herokuapp.com/" target="_blank">Arcadian</a> - Our online arcade!</p>
+          <p><a href="https://camerong88.github.io/Bandify/" target="_blank">Bandify</a> - Find your favorite artists, music and tour dates!</p>
+          <p><a href="https://note-taker-rs.herokuapp.com/notes" target="_blank">Note Taker</a> - A simple note taking app!</p>
+          <p><a href="https://rs-workout-tracker.herokuapp.com/" target="_blank">Fitness Tracker</a> - Keep track of your fitness goals!</p>
           {close}
         </article>
 
