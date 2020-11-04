@@ -1,5 +1,10 @@
 import PropTypes from 'prop-types'
 import React from 'react'
+import Arcadian from '../images/Arcadian.png'
+import Bandify from '../images/Bandify.png'
+import NoteTaker from '../images/NoteTaker.png'
+import FitnessTracker from '../images/FitnessTracker.png'
+import ImgStyle from '../components/ImgStyle.css'
 
 class Main extends React.Component {
   render() {
@@ -41,10 +46,10 @@ class Main extends React.Component {
         >
           <h2 className="major">Portfolio</h2>
           <span className="image main"></span>
-          <p><a href="https://react-arcadian.herokuapp.com/" target="_blank">Arcadian</a> - Our online arcade!</p>
-          <p><a href="https://camerong88.github.io/Bandify/" target="_blank">Bandify</a> - Find your favorite artists, music and tour dates!</p>
-          <p><a href="https://note-taker-rs.herokuapp.com/notes" target="_blank">Note Taker</a> - A simple note taking app!</p>
-          <p><a href="https://rs-workout-tracker.herokuapp.com/" target="_blank">Fitness Tracker</a> - Keep track of your fitness goals!</p>
+          <p><a href="https://react-arcadian.herokuapp.com/" target="_blank"><img className="photo" src={Arcadian}></img><br></br>Arcadian - Our online arcade!</a></p>
+          <p><a href="https://camerong88.github.io/Bandify/" target="_blank"><img className="photo" src={Bandify}></img><br></br>Bandify - Find your favorite artists, music and tour dates!</a></p>
+          <p><a href="https://note-taker-rs.herokuapp.com/notes" target="_blank"><img className="photo" src={NoteTaker}></img><br></br>Note Taker - A simple note taking app!</a></p>
+          <p><a href="https://rs-workout-tracker.herokuapp.com/" target="_blank"><img className="photo" src={FitnessTracker}></img><br></br>Fitness Tracker - Keep track of your fitness goals!</a></p>
           {close}
         </article>
 
