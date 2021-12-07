@@ -32,7 +32,7 @@ class Main extends React.Component {
         >
           <h2 className="major">About</h2>
           <span className="image main"></span>
-          <p>Utilizing skills in JavaScript, CSS, MongoDB, Express, React.js, and Node.js, I prioritize fast loading times, lag free interaction, responsive layouts, intuitive UX/UI, and dynamic pages.</p>
+          <p>Utilizing skills in JavaScript, React, Angular, CSS, MongoDB, Express, and Node.js, I prioritize fast loading times, lag free interaction, responsive layouts, intuitive UX/UI, and dynamic pages.</p>
           <p>Let's create something special!</p>
           {close}
         </article>
